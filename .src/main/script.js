@@ -18,6 +18,16 @@ for (item of buttons) {
       screenValue += buttonText;
       screen.value = screenValue;
     }
+    // operators
+    if (e.key === "+") {
+      res.value += "+";
+    } else if (e.key === "-") {
+      res.value += "-";
+    } else if (e.key === "*") {
+      res.value += "*";
+    } else if (e.key === "/") {
+      res.value += "/";
+    }
   });
 }
 
